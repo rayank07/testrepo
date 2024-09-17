@@ -1,0 +1,42 @@
+A `422 Unprocessable Entity` HTTP status code indicates that the server understands the content type of the request entity but was unable to process the contained instructions. In the context of a connector and a tool, here are some possible causes:
+
+### **Connector Side Issues:**
+
+1. **Invalid Data Format**:
+   - **Description**: The data being sent by the connector might not be in the expected format required by the API. For instance, if the API expects JSON data with certain fields and the connector sends data with missing or incorrect fields, the API will return a 422 error.
+   - **Action**: Verify that the data format, field names, and values comply with the API's specifications.
+
+2. **Validation Errors**:
+   - **Description**: The connector may be sending data that fails server-side validation rules. This could include data types, ranges, or required fields that are not being met.
+   - **Action**: Check the API documentation for validation rules and ensure that the connector is sending data that adheres to these rules.
+
+3. **Incorrect API Endpoint or Method**:
+   - **Description**: Using an incorrect API endpoint or HTTP method might cause the server to reject the request. For example, sending a `POST` request to an endpoint that only accepts `PUT` requests.
+   - **Action**: Ensure that the correct endpoint and HTTP method are being used in the API calls.
+
+### **Tool Side Issues:**
+
+1. **API Schema Changes**:
+   - **Description**: The tool’s API might have undergone schema changes or updates that the connector is not aware of, leading to mismatched data structures.
+   - **Action**: Check for any recent changes or updates to the API schema and update the connector accordingly.
+
+2. **Server-side Business Logic**:
+   - **Description**: The tool might have specific business logic or constraints that the data must meet. For example, the tool might require that certain data relationships be valid or that data is unique.
+   - **Action**: Review the tool’s documentation or error messages for additional details about the validation rules and ensure compliance.
+
+3. **Dependency or Configuration Issues**:
+   - **Description**: If there are configuration issues or missing dependencies in the tool, it might affect how data is processed, resulting in a 422 error.
+   - **Action**: Ensure that the tool is correctly configured and all necessary dependencies or services are operational.
+
+### **General Troubleshooting Steps:**
+
+1. **Check Error Messages**:
+   - Look at the detailed error messages or logs from both the connector and the tool for more specific information about why the data was unprocessable.
+
+2. **Validate Data**:
+   - Ensure that the data being sent meets all the required format and content constraints specified by the API.
+
+3. **Update Documentation**:
+   - Verify that you are following the most recent API documentation and guidelines.
+
+By addressing these areas, you can diagnose and resolve the issues leading to the 422 Unprocessable Entity response code.

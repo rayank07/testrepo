@@ -1,12 +1,56 @@
-In the context of Generative AI, **LLM** stands for **Large Language Model**. These are sophisticated machine learning models designed to understand and generate human-like text based on vast amounts of data. 
+### 1. Key Not Found Error
 
-### Key Features of LLMs:
-1. **Training on Large Datasets**: LLMs are trained on extensive and diverse datasets, which helps them generate coherent and contextually relevant text.
-2. **Natural Language Understanding**: They can comprehend and generate text in a manner that mimics human language, making them useful for tasks like translation, summarization, and conversational agents.
-3. **Pretrained and Fine-tuned**: Typically, LLMs are pretrained on broad data sources and can be fine-tuned for specific tasks or domains to enhance performance.
+**Definition**: A "Key Not Found" error typically occurs in programming when an attempt is made to access a dictionary or map with a key that does not exist. 
 
-### Examples of LLMs:
-- **GPT-3 and GPT-4**: Developed by OpenAI, these models can generate human-like text based on prompts.
-- **BERT**: Developed by Google, used primarily for understanding context in text.
+**Context**: 
+- **Python**: In Python, this error is usually raised as a `KeyError`. It happens when you try to access a key in a dictionary that is not present.
+- **Example**:
+  ```python
+  my_dict = {"a": 1, "b": 2}
+  print(my_dict["c"])  # Raises KeyError: 'c'
+  ```
 
-LLMs are pivotal in various applications, including chatbots, content generation, and automated responses, due to their ability to produce and understand natural language.
+**Handling**:
+- **Using `get()` Method**: To avoid this error, you can use the `get()` method, which allows you to specify a default value if the key is not found.
+  ```python
+  value = my_dict.get("c", "default_value")
+  ```
+
+### 2. 404 Error
+
+**Definition**: A `404 Not Found` error is an HTTP status code indicating that the requested resource could not be found on the server.
+
+**Context**: 
+- **Web Development**: This error is common on the web when a user tries to access a URL that does not correspond to any resource on the server.
+- **Example**: Trying to visit a page that has been removed or never existed.
+- **Example Message**: 
+  ```
+  HTTP/1.1 404 Not Found
+  Content-Type: text/html
+  Content-Length: 1234
+  ```
+
+**Handling**:
+- **Server Configuration**: Ensure that the URL is correct and that the resource exists. Proper server-side configuration can also help handle these errors gracefully, often by providing a custom "404 Not Found" page.
+
+### 3. List Index Out of Range
+
+**Definition**: A "List Index Out of Range" error occurs when trying to access an index in a list that is outside its valid range of indices.
+
+**Context**:
+- **Python**: This error is typically raised as an `IndexError` in Python. It happens when the index is either negative or exceeds the size of the list.
+- **Example**:
+  ```python
+  my_list = [1, 2, 3]
+  print(my_list[3])  # Raises IndexError: list index out of range
+  ```
+
+**Handling**:
+- **Check List Length**: Ensure that you are accessing indices within the range of the list. Use conditional statements or exception handling to avoid this error.
+  ```python
+  index = 3
+  if index < len(my_list):
+      print(my_list[index])
+  else:
+      print("Index out of range")
+  ```

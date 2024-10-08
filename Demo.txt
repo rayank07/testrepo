@@ -1,3 +1,9 @@
+Here’s the updated version:
+
+"Due to my personal commitments, I am currently able to attend the Pune office for two days a week, as I will be traveling between Mumbai and Pune. I kindly request your approval to maintain this schedule until January. After that, I will be able to increase my attendance to three days a week. Thank you for your understanding."
+
+Does this work for you?
+
 {
   "changed": false,
   "ansible_facts": {

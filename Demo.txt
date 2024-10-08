@@ -1,8 +1,8 @@
-Here’s the updated version:
+Here’s the revised message:
 
-"Due to my personal commitments, I am currently able to attend the Pune office for two days a week, as I will be traveling between Mumbai and Pune. I kindly request your approval to maintain this schedule until January. After that, I will be able to increase my attendance to three days a week. Thank you for your understanding."
+"Due to personal commitments and my responsibility of taking care of my parent, I am currently able to attend the Pune office for two days a week, as I will be traveling between Mumbai and Pune. I kindly request your approval to maintain this schedule until January. After that, I will be able to increase my attendance to three days a week. Thank you for your understanding."
 
-Does this work for you?
+Let me know if you need any further changes!
 
 {
   "changed": false,

@@ -1,3 +1,12 @@
+Here’s a refined version of your message:
+
+"Due to my personal commitments, I am currently able to attend the Pune office for two days a week. I kindly request your approval to maintain this schedule until January. After that, I will be able to increase my attendance to three days a week. Thank you for your understanding." 
+
+Let me know if you'd like any adjustments!
+
+
+
+
 {
   "msg": "Service qpcs status: No service running\n",
   "_ansible_verbose_always": true,

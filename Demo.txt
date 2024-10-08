@@ -1,179 +1,73 @@
 {
-  "command_check_output.results": [
-    {
-      "cmd": "ps -ef|grep qpts",
-      "stdout": "ambppmp  1035880       1  0 Sep22 ?        01:29:06 ./qpts --start\nroot     3535452 3535449  0 03:29 ?        00:00:00 /bin/sh -c ps -ef|grep qpts\nroot     3535454 3535452  0 03:29 ?        00:00:00 grep qpts",
-      "stderr": "",
-      "rc": 0,
-      "start": "2024-10-08 03:29:29.666096",
-      "end": "2024-10-08 03:29:29.721567",
-      "delta": "0:00:00.055471",
-      "changed": true,
-      "invocation": {
-        "module_args": {
-          "_raw_params": "ps -ef|grep qpts",
-          "_uses_shell": true,
-          "warn": true,
-          "stdin_add_newline": true,
-          "strip_empty_ends": true,
-          "argv": null,
-          "chdir": null,
-          "executable": null,
-          "creates": null,
-          "removes": null,
-          "stdin": null
-        }
-      },
-      "stdout_lines": [
-        "ambppmp  1035880       1  0 Sep22 ?        01:29:06 ./qpts --start",
-        "root     3535452 3535449  0 03:29 ?        00:00:00 /bin/sh -c ps -ef|grep qpts",
-        "root     3535454 3535452  0 03:29 ?        00:00:00 grep qpts"
-      ],
-      "stderr_lines": [],
-      "failed": false,
-      "item": "qpts",
-      "ansible_loop_var": "item"
-    },
-    {
-      "cmd": "ps -ef|grep qphs",
-      "stdout": "ambppmp  1035885       1  0 Sep22 ?        01:58:07 ./qphs --start\nambppmp  1912807       1  0 Sep17 ?        02:12:07 ./qphs --start\nroot     3535468 3535459  0 03:29 ?        00:00:00 /bin/sh -c ps -ef|grep qphs\nroot     3535470 3535468  0 03:29 ?        00:00:00 grep qphs",
-      "stderr": "",
-      "rc": 0,
-      "start": "2024-10-08 03:29:30.053092",
-      "end": "2024-10-08 03:29:30.103908",
-      "delta": "0:00:00.050816",
-      "changed": true,
-      "invocation": {
-        "module_args": {
-          "_raw_params": "ps -ef|grep qphs",
-          "_uses_shell": true,
-          "warn": true,
-          "stdin_add_newline": true,
-          "strip_empty_ends": true,
-          "argv": null,
-          "chdir": null,
-          "executable": null,
-          "creates": null,
-          "removes": null,
-          "stdin": null
-        }
-      },
-      "stdout_lines": [
-        "ambppmp  1035885       1  0 Sep22 ?        01:58:07 ./qphs --start",
-        "ambppmp  1912807       1  0 Sep17 ?        02:12:07 ./qphs --start",
-        "root     3535468 3535459  0 03:29 ?        00:00:00 /bin/sh -c ps -ef|grep qphs",
-        "root     3535470 3535468  0 03:29 ?        00:00:00 grep qphs"
-      ],
-      "stderr_lines": [],
-      "failed": false,
-      "item": "qphs",
-      "ansible_loop_var": "item"
-    },
-    {
-      "cmd": "ps -ef|grep qpes",
-      "stdout": "ambppmp  1035888       1  0 Sep22 ?        00:46:53 ./qpes --start\nroot     3535477 3535474  0 03:29 ?        00:00:00 /bin/sh -c ps -ef|grep qpes\nroot     3535479 3535477  0 03:29 ?        00:00:00 grep qpes",
-      "stderr": "",
-      "rc": 0,
-      "start": "2024-10-08 03:29:30.496290",
-      "end": "2024-10-08 03:29:30.546104",
-      "delta": "0:00:00.049814",
-      "changed": true,
-      "invocation": {
-        "module_args": {
-          "_raw_params": "ps -ef|grep qpes",
-          "_uses_shell": true,
-          "warn": true,
-          "stdin_add_newline": true,
-          "strip_empty_ends": true,
-          "argv": null,
-          "chdir": null,
-          "executable": null,
-          "creates": null,
-          "removes": null,
-          "stdin": null
-        }
-      },
-      "stdout_lines": [
-        "ambppmp  1035888       1  0 Sep22 ?        00:46:53 ./qpes --start",
-        "root     3535477 3535474  0 03:29 ?        00:00:00 /bin/sh -c ps -ef|grep qpes",
-        "root     3535479 3535477  0 03:29 ?        00:00:00 grep qpes"
-      ],
-      "stderr_lines": [],
-      "failed": false,
-      "item": "qpes",
-      "ansible_loop_var": "item"
-    },
-    {
-      "cmd": "ps -ef|grep qpcgateway",
-      "stdout": "ambppmp  1035891       1  0 Sep22 ?        00:06:44 ./qpcgateway --start\nroot     3535486 3535483  0 03:29 ?        00:00:00 /bin/sh -c ps -ef|grep qpcgateway\nroot     3535488 3535486  0 03:29 ?        00:00:00 grep qpcgateway",
-      "stderr": "",
-      "rc": 0,
-      "start": "2024-10-08 03:29:30.878719",
-      "end": "2024-10-08 03:29:30.924333",
-      "delta": "0:00:00.045614",
-      "changed": true,
-      "invocation": {
-        "module_args": {
-          "_raw_params": "ps -ef|grep qpcgateway",
-          "_uses_shell": true,
-          "warn": true,
-          "stdin_add_newline": true,
-          "strip_empty_ends": true,
-          "argv": null,
-          "chdir": null,
-          "executable": null,
-          "creates": null,
-          "removes": null,
-          "stdin": null
-        }
-      },
-      "stdout_lines": [
-        "ambppmp  1035891       1  0 Sep22 ?        00:06:44 ./qpcgateway --start",
-        "root     3535486 3535483  0 03:29 ?        00:00:00 /bin/sh -c ps -ef|grep qpcgateway",
-        "root     3535488 3535486  0 03:29 ?        00:00:00 grep qpcgateway"
-      ],
-      "stderr_lines": [],
-      "failed": false,
-      "item": "qpcgateway",
-      "ansible_loop_var": "item"
-    },
-    {
-      "cmd": "ps -ef|grep qphs",
-      "stdout": "ambppmp  1035885       1  0 Sep22 ?        01:58:07 ./qphs --start\nambppmp  1912807       1  0 Sep17 ?        02:12:07 ./qphs --start\nroot     3535494 3535492  0 03:29 ?        00:00:00 /bin/sh -c ps -ef|grep qphs\nroot     3535496 3535494  0 03:29 ?        00:00:00 grep qphs",
-      "stderr": "",
-      "rc": 0,
-      "start": "2024-10-08 03:29:31.243939",
-      "end": "2024-10-08 03:29:31.289336",
-      "delta": "0:00:00.045397",
-      "changed": true,
-      "invocation": {
-        "module_args": {
-          "_raw_params": "ps -ef|grep qphs",
-          "_uses_shell": true,
-          "warn": true,
-          "stdin_add_newline": true,
-          "strip_empty_ends": true,
-          "argv": null,
-          "chdir": null,
-          "executable": null,
-          "creates": null,
-          "removes": null,
-          "stdin": null
-        }
-      },
-      "stdout_lines": [
-        "ambppmp  1035885       1  0 Sep22 ?        01:58:07 ./qphs --start",
-        "ambppmp  1912807       1  0 Sep17 ?        02:12:07 ./qphs --start",
-        "root     3535494 3535492  0 03:29 ?        00:00:00 /bin/sh -c ps -ef|grep qphs",
-        "root     3535496 3535494  0 03:29 ?        00:00:00 grep qphs"
-      ],
-      "stderr_lines": [],
-      "failed": false,
-      "item": "qphs",
-      "ansible_loop_var": "item"
-    }
-  ],
+  "msg": "Service qpcs status: No service running\n",
   "_ansible_verbose_always": true,
   "_ansible_no_log": false,
-  "changed": false
+  "changed": false,
+  "item": {
+    "cmd": "ps -ef | grep qpcs",
+    "stdout": "root     3591969 3591967  0 05:25 ?        00:00:00 /bin/sh -c ps -ef | grep qpcs\nroot     3591971 3591969  0 05:25 ?        00:00:00 grep qpcs",
+    "stderr": "",
+    "rc": 0,
+    "start": "2024-10-08 05:25:06.316093",
+    "end": "2024-10-08 05:25:06.357989",
+    "delta": "0:00:00.041896",
+    "changed": true,
+    "invocation": {
+      "module_args": {
+        "_raw_params": "ps -ef | grep qpcs",
+        "_uses_shell": true,
+        "warn": true,
+        "stdin_add_newline": true,
+        "strip_empty_ends": true,
+        "argv": null,
+        "chdir": null,
+        "executable": null,
+        "creates": null,
+        "removes": null,
+        "stdin": null
+      }
+    },
+    "stdout_lines": [
+      "root     3591969 3591967  0 05:25 ?        00:00:00 /bin/sh -c ps -ef | grep qpcs",
+      "root     3591971 3591969  0 05:25 ?        00:00:00 grep qpcs"
+    ],
+    "stderr_lines": [],
+    "failed": false,
+    "item": "qpcs",
+    "ansible_loop_var": "item"
+  },
+  "ansible_loop_var": "item",
+  "_ansible_item_label": {
+    "cmd": "ps -ef | grep qpcs",
+    "stdout": "root     3591969 3591967  0 05:25 ?        00:00:00 /bin/sh -c ps -ef | grep qpcs\nroot     3591971 3591969  0 05:25 ?        00:00:00 grep qpcs",
+    "stderr": "",
+    "rc": 0,
+    "start": "2024-10-08 05:25:06.316093",
+    "end": "2024-10-08 05:25:06.357989",
+    "delta": "0:00:00.041896",
+    "changed": true,
+    "invocation": {
+      "module_args": {
+        "_raw_params": "ps -ef | grep qpcs",
+        "_uses_shell": true,
+        "warn": true,
+        "stdin_add_newline": true,
+        "strip_empty_ends": true,
+        "argv": null,
+        "chdir": null,
+        "executable": null,
+        "creates": null,
+        "removes": null,
+        "stdin": null
+      }
+    },
+    "stdout_lines": [
+      "root     3591969 3591967  0 05:25 ?        00:00:00 /bin/sh -c ps -ef | grep qpcs",
+      "root     3591971 3591969  0 05:25 ?        00:00:00 grep qpcs"
+    ],
+    "stderr_lines": [],
+    "failed": false,
+    "item": "qpcs",
+    "ansible_loop_var": "item"
+  }
 }

@@ -1,175 +1,25 @@
-Here’s the revised message:
+Automation Development center Infra Automation developer - 1 Year & 1 Month (Sep-2021-Oct 2022)
+Project Description
+Automation Development Center, an internal project dedicated to identifying and implementing automation solutions across multiple accounts. Project responsibilities involved assessing manual tasks within these accounts and delivering end-to-end automation solutions. Automation solution provided where majorly based on windows automation, linux automation, cloud automation and database automation This required a thorough understanding of the tasks involved, as well as the ability to design and implement effective automation processes to streamline operations and improve efficiency
+Roles & Responsibilities
+As a member of the Automation development team, I was responsible for understanding manual tasks which a system administrator perform on daily basis, creating high-level design documents for automation flow, developing scripts using PowerShell and Python, creating workflow using MFOO tool for connectivity, testing them in QA environments, and finally deploying them in production. Additionally provide the automation guide for users to utilize the automation effectively. My day to day responsibilities also involve to provide support for already build automation in case of enhancements and failure
 
-"Due to personal commitments and my responsibility of taking care of my parent, I am currently able to attend the Pune office for two days a week, as I will be traveling between Mumbai and Pune. I kindly request your approval to maintain this schedule until January. After that, I will be able to increase my attendance to three days a week. Thank you for your understanding."
 
-Let me know if you need any further changes!
 
-{
-  "changed": false,
-  "ansible_facts": {
-    "aggregated_cmd_service_status": [
-      [
-        {
-          "server": "p3007hldmvm001.thehartford.com",
-          "service": "qpts",
-          "status": "running service"
-        },
-        {
-          "server": "p3007hldmvm001.thehartford.com",
-          "service": "qphs",
-          "status": "running service"
-        },
-        {
-          "server": "p3007hldmvm001.thehartford.com",
-          "service": "qpes",
-          "status": "running service"
-        },
-        {
-          "server": "p3007hldmvm001.thehartford.com",
-          "service": "qpcgateway",
-          "status": "running service"
-        },
-        {
-          "server": "p3007hldmvm001.thehartford.com",
-          "service": "qphs",
-          "status": "running service"
-        },
-        {
-          "server": "p3007hldmvm001.thehartford.com",
-          "service": "qpcs",
-          "status": "no service running"
-        }
-      ]
-    ]
-  },
-  "_ansible_no_log": false,
-  "item": {
-    "changed": true,
-    "end": "2024-10-08 11:20:09.024685",
-    "stdout": "[{\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpts\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qphs\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpes\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpcgateway\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qphs\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpcs\", \"status\": \"no service running\"}]",
-    "cmd": "cat \"/tmp/command_service_status_details/p3007hldmvm001.thehartford.com_command_service_status.json\"",
-    "rc": 0,
-    "start": "2024-10-08 11:20:09.012751",
-    "stderr": "",
-    "delta": "0:00:00.011934",
-    "invocation": {
-      "module_args": {
-        "creates": null,
-        "executable": null,
-        "_uses_shell": true,
-        "strip_empty_ends": true,
-        "_raw_params": "cat \"/tmp/command_service_status_details/p3007hldmvm001.thehartford.com_command_service_status.json\"",
-        "removes": null,
-        "argv": null,
-        "warn": true,
-        "chdir": null,
-        "stdin_add_newline": true,
-        "stdin": null
-      }
-    },
-    "stdout_lines": [
-      "[{\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpts\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qphs\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpes\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpcgateway\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qphs\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpcs\", \"status\": \"no service running\"}]"
-    ],
-    "stderr_lines": [],
-    "failed": false,
-    "item": {
-      "uid": 0,
-      "woth": false,
-      "mtime": 1728400807.172978,
-      "inode": 20,
-      "isgid": false,
-      "size": 573,
-      "roth": true,
-      "isuid": false,
-      "isreg": true,
-      "pw_name": "root",
-      "gid": 0,
-      "ischr": false,
-      "wusr": true,
-      "xoth": false,
-      "rusr": true,
-      "nlink": 1,
-      "issock": false,
-      "rgrp": true,
-      "gr_name": "root",
-      "path": "/tmp/command_service_status_details/p3007hldmvm001.thehartford.com_command_service_status.json",
-      "xusr": false,
-      "atime": 1728400807.775989,
-      "isdir": false,
-      "ctime": 1728400807.7779894,
-      "isblk": false,
-      "xgrp": false,
-      "dev": 2055,
-      "wgrp": false,
-      "isfifo": false,
-      "mode": "0644",
-      "islnk": false
-    },
-    "ansible_loop_var": "item"
-  },
-  "ansible_loop_var": "item",
-  "_ansible_item_label": {
-    "changed": true,
-    "end": "2024-10-08 11:20:09.024685",
-    "stdout": "[{\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpts\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qphs\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpes\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpcgateway\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qphs\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpcs\", \"status\": \"no service running\"}]",
-    "cmd": "cat \"/tmp/command_service_status_details/p3007hldmvm001.thehartford.com_command_service_status.json\"",
-    "rc": 0,
-    "start": "2024-10-08 11:20:09.012751",
-    "stderr": "",
-    "delta": "0:00:00.011934",
-    "invocation": {
-      "module_args": {
-        "creates": null,
-        "executable": null,
-        "_uses_shell": true,
-        "strip_empty_ends": true,
-        "_raw_params": "cat \"/tmp/command_service_status_details/p3007hldmvm001.thehartford.com_command_service_status.json\"",
-        "removes": null,
-        "argv": null,
-        "warn": true,
-        "chdir": null,
-        "stdin_add_newline": true,
-        "stdin": null
-      }
-    },
-    "stdout_lines": [
-      "[{\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpts\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qphs\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpes\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpcgateway\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qphs\", \"status\": \"running service\"}, {\"server\": \"p3007hldmvm001.thehartford.com\", \"service\": \"qpcs\", \"status\": \"no service running\"}]"
-    ],
-    "stderr_lines": [],
-    "failed": false,
-    "item": {
-      "uid": 0,
-      "woth": false,
-      "mtime": 1728400807.172978,
-      "inode": 20,
-      "isgid": false,
-      "size": 573,
-      "roth": true,
-      "isuid": false,
-      "isreg": true,
-      "pw_name": "root",
-      "gid": 0,
-      "ischr": false,
-      "wusr": true,
-      "xoth": false,
-      "rusr": true,
-      "nlink": 1,
-      "issock": false,
-      "rgrp": true,
-      "gr_name": "root",
-      "path": "/tmp/command_service_status_details/p3007hldmvm001.thehartford.com_command_service_status.json",
-      "xusr": false,
-      "atime": 1728400807.775989,
-      "isdir": false,
-      "ctime": 1728400807.7779894,
-      "isblk": false,
-      "xgrp": false,
-      "dev": 2055,
-      "wgrp": false,
-      "isfifo": false,
-      "mode": "0644",
-      "islnk": false
-    },
-    "ansible_loop_var": "item"
-  }
-}
+
+Project Description
+Airbus infrastructure project focused on Ansible for automating configuration management. The project included developing an end-to-end Auto heal framework to resolve incidents and tasks using Ansible. Additionally upgraded the Ansible Tower configuration to the latest Ansible Automation Platform. Team responsibilities also involved providing support for new automation requests and maintaining existing automation solutions within Ansible.
+Roles & Responsibilities
+As a member of the Airbus Infrastructure team, my responsibility was to build the Auto heal framework for Incident and task management, this framework basically involves the Splunk monitoring tool to monitor end machines if some abnormality was found in end machine for example - High CPU utilization, low Disk space, Stop services etc. Splunk register a incident or task in SNOW my tasks was to develop automation to poll this incident and resolve it issue on the respective machine using Ansible without any manual intervention. Also my day to day roles involve migrating Ansible tower configuration with latest Ansible Automation Platform 2.0 and providing support for new autornation requests
+
+
+
+
+
+
+The Har Env Engg Renewal-MAR 2
+DevOps Operations Engineer-5 Months (Dec 2023-May 2024)
+Project Description
+Project involved working as part of an Infrastructure as Code (IAC) team, focusing on resolving incidents related to Ansible. Responsibilities also included addressing issues with Ansible onboarding, Vm provisioning via Ansible, Jenkins API token mapping, Terraform onboarding request, resolving Github issue and developing new automation for manual tasks. Daily tasks consisted of receiving and resolving these incidents to maintain the smooth operation of infrastructure automation processes
+Roles & Responsibilities
+As a team member, my daily responsibilities encompassed promptly receiving and resolving incidents. Understanding manual tasks, and developing automation using Ansible to replace them. The automation development process included understanding manual tasks, creating a high-level design document detailing the automation flow, developing playbooks, testing the automation in a QA environment, and ultimately deploying it in production by providing user an Automation guide document to facilitate adoption of the automation.
